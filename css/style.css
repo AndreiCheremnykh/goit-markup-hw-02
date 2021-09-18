@@ -11,7 +11,7 @@
   --accent-color: #2196f3;
 }
 body {
-  color: #757575;
+  color: var(--primery-text-color);
 }
 ul {
   list-style: none;
@@ -20,17 +20,17 @@ a {
   text-decoration: none;
 }
 .logo {
-  color: #212121;
+  color: var(--primery-text-color);
 }
 .logo-text {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 /* site-nav */
 .site-nav .link {
-  color: #212121;
+  color: var(--primery-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
