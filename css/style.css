@@ -75,6 +75,7 @@ a {
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
 }
 .hero .button {
   background-color: var(--accent-color);
@@ -84,16 +85,16 @@ a {
   line-height: 1.87;
 }
 /* Advantage */
-.advantage {
-  background-color: var(--bg-primery-pf);
-}
+/* .advantage {
+} */
 .advantage .notitle {
-  color: #e5e5e5;
+  color: #ffffff;
 }
 .advantage-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .advantage-text {
   color: var(--title-text-color);
@@ -102,9 +103,9 @@ a {
   line-height: 1.71;
 }
 /* Work */
-.work {
-  background-color: var(--bg-primery-pf);
-}
+/* .work {
+ 
+} */
 .work-title {
   font-weight: 700;
   font-size: 36px;
@@ -154,6 +155,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .footer .link {
   color: var(--text-footer-color);
